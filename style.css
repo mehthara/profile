@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+nav{
+  
+  
+  position: sticky;
+  top: 0;
+  right: 0;
+  padding: 20px;
+}
+.gradient{
+  background-image: linear-gradient(to bottom right, rgba(128,0,32,0),rgba(128,0,32,1));
+  padding: 20px;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+}
+nav ul li{
+  margin: auto;
+  font-size: 2em;
+}
+body{
+  background: url(./images/annie-spratt-V1lmayjfBJc-unsplash.jpg) fixed center center;
+  font-family: 'Roboto', sans-serif;
+  background-attachment: fixed;
+}
+.black{
+  background-color: black;
+  width: 400px;
+}
+.pink{
+  background-color: blanchedalmond;
+  width: 200px;
+}
+.position{
+  
+  margin : 300px;
+  display: flex;
+  margin-bottom: 200px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+.grid-item{
+  padding:20px;
+}
+h1{
+  
+  font-size: 5em;
+  text-align: center;
+  color: blanchedalmond;
+  margin-bottom: 0;
+  
+}
+h3{
+  
+
+  font-size: 4em;
+  text-align: center;
+  color: blanchedalmond;
+  margin:0;
+ 
+}
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+.font{
+  font-size: 2em;
+  color: antiquewhite;
+}
+.engineer{
+  background: url(./images/jess-bailey-q10VITrVYUM-unsplash.jpg) center center/cover;
+  background-attachment: fixed;
+  padding: 100px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.bio{
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+  background-color: antiquewhite;
+  border-radius: 30px;
+  padding: 50px;
+}
+p{
+  color: #821D30;
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 4px 4px 4px #ffe6e6;
+}
+
+.hobby{
+  margin-top:200px;
+  margin-bottom: 100px;
+  padding: 100px;
+  background: url(./images/steve-johnson-A2OL6S9zB7o-unsplash.jpg) center center/cover;
+  background-attachment: fixed;
+  color: pink;
+
+}
